@@ -1,7 +1,9 @@
 import os
 from itertools import batched
 
-input = os.fdopen(3, "r").read().strip()
+input = ""
+if __name__ == "__main__":
+    input = os.fdopen(3, "r").read().strip()
 
 
 def part1(input=input):
